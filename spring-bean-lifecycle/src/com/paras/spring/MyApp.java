@@ -8,5 +8,6 @@ public class MyApp {
 		Coach coach1 = context.getBean("basketballCoach", Coach.class);
 		Coach coach2 = context.getBean("basketballCoach", Coach.class);
 		System.out.println(coach1 == coach2);
+		context.close();
 	}
 }

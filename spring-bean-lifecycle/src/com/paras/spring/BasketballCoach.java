@@ -21,4 +21,11 @@ public class BasketballCoach implements Coach {
 		this.diet = diet;
 	}
 
+	public void startup() {
+		System.out.println("some startup stuff");
+	}
+	
+	public void shutdown() {
+		System.out.println("some shutdown stuff");
+	}
 }

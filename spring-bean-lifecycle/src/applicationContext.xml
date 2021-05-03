@@ -10,7 +10,9 @@
     <!-- Define your beans here -->
     
     <bean id ="basketballCoach"
-    		class = "com.paras.spring.BasketballCoach">
+    		class = "com.paras.spring.BasketballCoach"
+    		init-method="startup"
+    		destroy-method="shutdown">
     		<constructor-arg ref= "vegDiet" />
     </bean>
     
