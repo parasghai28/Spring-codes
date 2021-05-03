@@ -4,8 +4,7 @@ public class VegDiet implements Diet {
 
 	@Override
 	public String getDiet() {
-		// TODO Auto-generated method stub
-		return null;
+		return "Eat grass";
 	}
 	
 }
